@@ -4,6 +4,17 @@ A pretty simplified Docker Compose workflow that sets up a LEMP network of conta
 
 ## Usage
 
+Create /src folder where you have to create or clone your laravel app.
+
+You need to configure laravel app env to connect database in correct way.
+
+Example: 
+  DB_HOST=mysql
+  DB_PORT=3306
+  DB_DATABASE=homestead
+  DB_USERNAME=homestead
+  DB_PASSWORD=secret
+
 To get started, make sure you have [Docker installed](https://docs.docker.com/docker-for-mac/install/) on your system, and then clone this repository.
 
 Next, navigate in your terminal to the directory you cloned this, and spin up the containers for the web server by running `docker-compose up -d --build site`.
